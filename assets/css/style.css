@@ -56,7 +56,29 @@ a {
 
 .text-light{
     color: var(--light);
+   
 }
+
+.text-light2{
+    color: var(--light);
+    width: 110px;
+}
+
+.text-light3{
+    color: var(--light);
+    width: 204px;
+}
+
+.text-light4{
+    color: var(--light);
+    width: 420px;
+}
+
+.text-light5{
+    color: var(--light);
+    width: 480px;
+}
+
 
 .text-gradient{
     background: linear-gradient(to right, #8e2de2, #4a00e0);
@@ -146,18 +168,18 @@ table{
     padding: .5em 0;
 }
 
-.new_user{
+.new_{
     max-width: 786px;
     margin: auto;
 }
 
-#update_user .form-group,
-#add_user .form-group{
-    margin: .4em 0;
+#update_Employee .form-group,
+#add_Employee .form-group{
+    margin: .8em 0;
 }
 
-#update_user .form-group input[type="text"],
-#add_user .form-group input[type="text"]{
+#update_Employee .form-group input[type="text"],
+#add_Employee .form-group input[type="text"]{
     width: 100%;
     padding: .6em 1em;
     margin: .5em 0;
@@ -167,8 +189,8 @@ table{
     border-radius: .2em;
 }
 
-#update_user .form-group .radio,
-#add_user .form-group .radio{
+#update_Employee .form-group .radio,
+#add_Employee .form-group .radio{
     margin: 1em 2em;
 }
 
@@ -212,8 +234,8 @@ table{
     background: #b4b4b4;
 }
 
-#update_user .form-group .btn,
-#add_user .form-group .btn{
+#update_Employee .form-group .btn,
+#add_Employee .form-group .btn{
     width: 100%;
     padding: .9em 1em;
     background-color:#16db93; 
@@ -225,8 +247,8 @@ table{
     margin: .5em 0;
 }
 
-#update_user .form-group .btn:hover,
-#add_user .form-group .btn:hover{
+#update_Employee .form-group .btn:hover,
+#add_Employee .form-group .btn:hover{
     background-color: var(--dark);
     color: var(--border);
 }

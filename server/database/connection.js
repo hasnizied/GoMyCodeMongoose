@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const connectDB = async () => {
     try{
         // mongodb connection string
-        const con = await mongoose.connect('mongodb://127.0.0.1:27017/HR', {
+        const con = await mongoose.connect('mongodb://127.0.0.1:27017/HR_DB', {
             useNewUrlParser: true,
             useUnifiedTopology: true,
             useFindAndModify: false,
